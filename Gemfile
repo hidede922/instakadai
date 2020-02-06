@@ -13,7 +13,7 @@ gem 'jbuilder',     '2.6.4'
 gem 'rails-controller-testing'
 
 group :development, :test do
-  gem 'sqlite3',      '1.3.13'
+  gem 'sqlite3', '~> 1.3.6'
   gem 'byebug', '9.0.6', platform: :mri
 end
 
