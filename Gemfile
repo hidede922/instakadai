@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.6'
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.1.2'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
@@ -22,6 +22,7 @@ group :development do
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+  gem 'pry-byebug'
 end
 
 # Windows環境ではtzinfo-dataというgemを含める必要があります
